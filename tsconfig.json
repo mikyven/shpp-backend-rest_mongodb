@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // "src_sql" for MySQL version, "src_mongo" for MongoDB version
+    "rootDir": "src_mongo",
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types", "./src_sql/express-session.d.ts"]
+  },
+  "exclude": ["node_modules"],
+  // "./src_sql" for MySQL version, "./src_mongo" for MongoDB version
+  "include": ["./src_mongo"]
+}

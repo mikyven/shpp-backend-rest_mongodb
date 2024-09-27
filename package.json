@@ -1,0 +1,47 @@
+{
+  "name": "shpp-backend-rest_mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd /s /q dist && tsc",
+    "start": "node dist/app.js 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/connect-mongo": "^3.1.2",
+    "@types/node": "^22.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-mysql-session": "^3.0.6",
+    "@types/express-session": "^1.18.0",
+    "@types/mysql": "^2.15.26",
+    "@types/session-file-store": "^1.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.0",
+    "globals": "^15.9.0",
+    "mongodb": "^6.8.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
